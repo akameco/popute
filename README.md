@@ -26,6 +26,12 @@ popute().then(links => {
 $ popute
 ```
 
+## Tests
+
+```
+$ npm test
+```
+
 ## License
 
 MIT
