@@ -18,5 +18,20 @@
   "devDependencies": {
     "ava": "^0.13.0",
     "xo": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akameco/popute.git"
+  },
+  "keywords": [
+    "popute",
+    "ポプテピピック",
+    "まんが",
+    "comix",
+    "まんがライフWIN"
+  ],
+  "bugs": {
+    "url": "https://github.com/akameco/popute/issues"
+  },
+  "homepage": "https://github.com/akameco/popute#readme"
 }
