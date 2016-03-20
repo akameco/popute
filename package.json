@@ -1,0 +1,22 @@
+{
+  "name": "popute",
+  "version": "0.0.1",
+  "description": "ポプテピピックのurl一覧を取得",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "popute": "cli.js"
+  },
+  "author": "akameco <akameco.t@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "got": "^6.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "xo": "*"
+  }
+}
