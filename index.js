@@ -8,6 +8,6 @@ module.exports = () => {
 	];
 
 	return Promise.all(poputeLinks.map(mlw4)).then(links => {
-		return [].concat(...links);
+		return Array.prototype.concat.apply([], links);
 	});
 };
