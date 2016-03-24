@@ -1,6 +1,6 @@
 {
   "name": "popute",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ポプテピピックのurl一覧を取得",
   "main": "index.js",
   "scripts": {
