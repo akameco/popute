@@ -12,8 +12,7 @@
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "got": "^6.2.0"
+    "manga-life-win-4": "0.0.1"
   },
   "devDependencies": {
     "ava": "^0.13.0",
@@ -33,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/akameco/popute/issues"
   },
-  "homepage": "https://github.com/akameco/popute#readme"
+  "homepage": "https://github.com/akameco/popute#readme",
+  "engines": {
+    "node": ">=4"
+  }
 }

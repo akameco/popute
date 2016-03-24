@@ -1,15 +1,13 @@
 'use strict';
-const got = require('got');
-const cheerio = require('cheerio');
+const mlw4 = require('manga-life-win-4');
 
 module.exports = () => {
-	return got('http://mangalifewin.takeshobo.co.jp/rensai/popute/')
-		.then(res => {
-			const $ = cheerio.load(res.body);
-			return $('.bookR a').map((i, el) => {
-				return $(el).attr('href');
-			}).get();
-		}).catch(err => {
-			console.log(err);
-		});
+	const poputeLinks = [
+		'http://mangalifewin.takeshobo.co.jp/rensai/popute/',
+		'http://mangalifewin.takeshobo.co.jp/rensai/popute2/'
+	];
+
+	return Promise.all(poputeLinks.map(mlw4)).then(links => {
+		return [].concat(...links);
+	});
 };
