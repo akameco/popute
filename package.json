@@ -12,10 +12,10 @@
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "manga-life-win-4": "0.0.1"
+    "manga-life-win-4": "0.0.2"
   },
   "devDependencies": {
-    "ava": "^0.13.0",
+    "ava": "^0.14.0",
     "xo": "*"
   },
   "repository": {
