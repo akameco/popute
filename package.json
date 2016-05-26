@@ -15,7 +15,7 @@
     "manga-life-win-4": "0.0.2"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
+    "ava": "^0.15.1",
     "xo": "*"
   },
   "repository": {
