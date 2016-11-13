@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "xo": "0.17.0"
+    "xo": "0.17.1"
   },
   "repository": {
     "type": "git",
