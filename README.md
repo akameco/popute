@@ -1,5 +1,7 @@
 # popute [![Build Status](https://travis-ci.org/akameco/popute.svg?branch=master)](https://travis-ci.org/akameco/popute)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/popute.svg)](https://greenkeeper.io/)
+
 > ポプテピピックのurl一覧を取得
 
 ## Installation
